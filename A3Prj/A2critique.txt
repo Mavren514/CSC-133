@@ -1,0 +1,50 @@
+Assignment #2
+Late Submission.
+
+In UML,
+
+Game failed to Extend Form
+
+Game failed to have a MapView
+
+Game failed to have a ScoreView
+
+Game failed to have all/some of the command classes 
+
+All command classes failed to extend Command
+
+MapView and ScoreView failed to Extend Container.
+
+MapView and ScoreView failed to implement Observer interface
+
+GameWorld failed to extend Observable Class
+
+GameWorld failed to have GameObjectCollection
+
+Ladybug failed to have a private field for the single Ladybug instance.
+
+Ladybug failed to have a method to create a single ladybug instance.
+
+	
+
+In Code,
+
+To create a ladybug object, new operator should not be used (singleton pattern is not implemented correctly).
+
+	
+
+In Execution,
+
+In Score view, lives left is not updated.
+
+In Score view, clock value is not updated.
+
+In Score view, last flag reached is not updated.
+
+'t' clock ticks command not working
+
+Menu item About not working
+
+Menu item Help not working 
+
+Clock ticks button not working

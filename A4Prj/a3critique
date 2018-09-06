@@ -1,0 +1,37 @@
+Late Submission.
+
+In Code,
+
+draw() method in Flag fails to checks whether the object is currently  “selected”. (If unselected, the object is drawn normally (filled square/triangle), if selected, the object is drawn in “highlighted” form (unfilled square/triangle)).
+
+GameObjects failed to implement ICollider.
+
+tick() in the GameWorld fails to call move() on objects by passing the elapsed time as a parameter.
+
+handleCollision() of a game object failed to call collision handling method in GameWorld.
+
+There is no BGSound class.
+
+BGSound failed to implement Runnable interface.
+
+In Execution,
+
+When Ladybug collides with Spider the health failed to decrease.
+
+When Ladybug collides with Spider the color of the ladybug failed to fade.
+
+When Ladybug collides with flag the LastFlagReached is not updated correctly.
+
+When Ladybug collides with food station the ladybug’s food quantity is not increased by the capacity of the food station, Also, the color of the food station does not fade, New food station is not created.
+
+When Ladybug-Spider collision happens, collision is handled multiple times (eg. the health of the Ladybug is decreased multiple times).
+
+There is no background sound.
+
+Collision does not create sound.
+
+There is collide with spiders, collide with flag, collide with food station and.or tick buttons.
+
+There is no position button in the Game.
+
+After pausing the pause button does not say Play.
